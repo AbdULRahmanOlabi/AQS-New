@@ -720,6 +720,48 @@ section {
   color: #333031;
 }
 
+/* General RTL adjustments for the services section */
+.services[style*="direction: rtl"] .icon-box {
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+/* Adjust the icon for RTL */
+.services[style*="direction: rtl"] .icon-box i {
+  float: right; /* Align icon to the right in RTL */
+  color: #333031;
+  font-size: 40px;
+}
+
+/* Adjust the header text margin for RTL */
+.services[style*="direction: rtl"] .icon-box h4 {
+  margin-right: 70px; /* Use margin-right instead of margin-left for RTL */
+  margin-left: 0; /* Reset left margin to 0 */
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* Style adjustments for links within headers */
+.services[style*="direction: rtl"] .icon-box h4 a {
+  color: #556270;
+  transition: 0.3s;
+}
+
+/* Paragraph text adjustment for RTL */
+.services[style*="direction: rtl"] .icon-box p {
+  margin-right: 70px; /* Text starts 70px from the right in RTL */
+  margin-left: 0; /* Reset left margin to 0 */
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/* Hover effect for links in RTL */
+.services[style*="direction: rtl"] .icon-box:hover h4 a {
+  color: #333031;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -784,7 +826,6 @@ section {
   width: 500px !important;
   height: 350px !important;
 }
-
 
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
@@ -2116,4 +2157,104 @@ section {
 
 #footer .credits a:hover {
   color: white;
+}
+
+/* General RTL adjustments for the footer */
+.footer-ar {
+  direction: rtl; /* Sets the direction to RTL */
+  text-align: right; /* Aligns text to the right */
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-ar .footer-top {
+  background: #333031;
+  padding: 60px 0 30px 0;
+}
+
+.footer-ar .footer-info {
+  margin-bottom: 30px;
+}
+
+.footer-ar .footer-info h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.footer-ar .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Cairo", sans-serif;
+}
+
+.footer-ar .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-left: 4px; /* Space between icons adjusted for RTL */
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.footer-ar .social-links a:hover {
+  background: #3e3a3c;
+}
+
+.footer-ar .footer-links h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer-ar .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-ar .footer-links ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0; /* Uniform padding */
+}
+
+.footer-ar .footer-links ul li i {
+  margin-left: 8px; /* Adjusts icon margin for visual spacing */
+}
+
+.footer-ar .footer-links ul a {
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+  line-height: 1;
+  display: inline-block; /* Ensures proper alignment */
+}
+
+.footer-ar .footer-links ul a:hover {
+  color: #fff; /* Changes color on hover */
+}
+
+.footer-ar .footer-newsletter form input[type="submit"]:hover {
+  background: #474445;
+}
+
+.footer-ar .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer-ar .credits {
+  padding-top: 10px;
+  text-align: center;
 }

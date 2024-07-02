@@ -15,8 +15,8 @@
     name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -25,16 +25,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -44,36 +44,34 @@
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
-      <!-- <h1 class="logo me-auto"><a href="Home">AQS</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="Home" class="logo me-auto"><img src="assets/img/Logo.png" alt="" class="img-fluid"></a>
+      <a href="Ar/Home" class="logo me-auto"><img src="../assets/img/Logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="Home">Home</a></li>
+          <li><a href="Home">الرئيسية</a></li>
 
-          <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>من نحن</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="About">About Company</a></li>
-              <!-- <li><a href="Team">Team</a></li> -->
-              <li><a href="Testimonials">Testimonials</a></li>
+              <li><a href="About">عن الشركة</a></li>
+              <li><a href="Testimonials">الشهادات</a></li>
             </ul>
           </li>
-          <li><a href="Services">Our Services</a></li>
-          <li><a href="Gallery" class="active">Gallery</a></li>
-          <!-- <li><a href="Pricing">Pricing</a></li> -->
-          <li><a href="Blog">Blog</a></li>
-
-          <li><a href="Contact">Contact Us</a></li>
+          <li><a href="Services">خدماتنا</a></li>
+          <li><a href="Gallery" class="active">معرض</a></li>
+          <li><a href="Blog">المدونة</a></li>
+          <li><a href="Contact">اتصل بنا</a></li>
           <li class="dropdown">
-            <a href="#"><span>Language</span> <i class="bi bi-translate"></i></a>
+            <a href="#"><span>اللغة</span> <i class="bi bi-translate"></i></a>
             <ul>
-              <li><a href="#"><iconify-icon icon="emojione-v1:flag-for-united-states"></iconify-icon> English</a></li>
-              <li><a href="Ar/Gallery"><iconify-icon icon="emojione-v1:flag-for-united-arab-emirates"></iconify-icon>
-                  العربية</a></li>
+              <li><a href="../Gallery"><iconify-icon icon="emojione-v1:flag-for-united-states"></iconify-icon>
+                  English</a>
+              </li>
+              <li><a href="#"><iconify-icon icon="emojione-v1:flag-for-united-arab-emirates"></iconify-icon> العربية</a>
+              </li>
             </ul>
           </li>
-          <li><a href="About" class="getstarted">Know Us</a></li>
+          <li><a href="About" class="getstarted">تعرف علينا</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -81,17 +79,20 @@
     </div>
   </header><!-- End Header -->
 
+  </div>
+  </header><!-- End Header -->
+
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
+    <section id="breadcrumbs" class="breadcrumbs" style="direction: rtl;">
       <div class="container mt-3">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Gallery</h2>
+          <h2>المعرض</h2>
           <ol>
-            <li><a href="Home">Home</a></li>
-            <li>Gallery</li>
+            <li><a href="Home">الرئيسية</a></li>
+            <li> المعرض</li>
           </ol>
         </div>
 
@@ -99,17 +100,17 @@
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Gallery Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio rtl">
       <div class="container">
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-table">Tables</li>
-              <li data-filter=".filter-projects">Projects</li>
-              <li data-filter=".filter-craft">Craft</li>
-              <li data-filter=".filter-slabs">Slabs</li>
+              <li data-filter="*" class="filter-active">الكل</li>
+              <li data-filter=".filter-table">الطاولات</li>
+              <li data-filter=".filter-projects">المشاريع</li>
+              <li data-filter=".filter-craft">الحرف</li>
+              <li data-filter=".filter-slabs">الألواح</li>
             </ul>
           </div>
         </div>
@@ -118,10 +119,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g34.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g34.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -134,10 +135,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g35.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g35.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -150,10 +151,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g39.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g39.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -166,10 +167,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g40.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g40.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -182,10 +183,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g41.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g41.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -198,10 +199,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g42.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g42.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -214,10 +215,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g43.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g43.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -230,10 +231,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g44.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g44.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -246,10 +247,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g51.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g51.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -262,10 +263,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g52.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g52.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -278,10 +279,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g53.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g53.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -294,10 +295,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g54.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g54.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -310,10 +311,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g55.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g55.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -326,10 +327,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g56.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g56.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -342,10 +343,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g57.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g57.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -358,10 +359,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g58.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g58.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -374,10 +375,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g59.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g59.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -390,10 +391,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g60.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g60.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -406,10 +407,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g61.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g61.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -422,10 +423,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-table">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Tables/g62.jpg" class="img-fluid" alt="Table Design">
-              <div class="portfolio-info">
-                <h4>Table Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Tables/g62.jpg" class="img-fluid" alt="تصميم الطاولات">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الطاولات</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
@@ -438,10 +439,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g1.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g1.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -454,10 +455,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g2.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g2.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -470,10 +471,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g3.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g3.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -486,10 +487,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g4.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g4.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -502,10 +503,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g7.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g7.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -518,10 +519,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g12.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g12.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -534,10 +535,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g13.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g13.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -550,10 +551,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g14.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g14.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -566,10 +567,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g15.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g15.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -582,10 +583,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g17.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g17.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -598,10 +599,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g17.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g17.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -614,10 +615,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g18.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g18.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -630,10 +631,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g19.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g19.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -646,10 +647,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g20.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g20.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -662,10 +663,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g25.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g25.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -678,10 +679,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g26.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g26.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -694,10 +695,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g28.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g28.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -710,10 +711,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g29.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g29.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -726,10 +727,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g30.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g30.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -742,10 +743,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Projects/g37.jpg" class="img-fluid" alt="Project Design">
-              <div class="portfolio-info">
-                <h4>Project Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Projects/g37.jpg" class="img-fluid" alt="تصميم المشاريع">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم المشاريع</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
@@ -758,10 +759,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g5.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g5.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -774,10 +775,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g11.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g11.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -790,10 +791,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g23.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g23.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -806,10 +807,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g24.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g24.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -822,10 +823,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g27.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g27.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -838,10 +839,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g31.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g31.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -854,10 +855,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g32.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g32.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -870,10 +871,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g36.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g36.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -886,10 +887,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g38.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g38.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -902,10 +903,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g45.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g45.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -918,10 +919,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g46.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g46.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -934,10 +935,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g47.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g47.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -950,10 +951,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g48.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g48.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -966,10 +967,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g49.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g49.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -982,10 +983,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-craft">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Craft/g50.jpg" class="img-fluid" alt="Craft Design">
-              <div class="portfolio-info">
-                <h4>Craft Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Craft/g50.jpg" class="img-fluid" alt="التصميم الحرفي">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>التصميم الحرفي</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -998,10 +999,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-slabs">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Slabs/g6.jpg" class="img-fluid" alt="Slabs Design">
-              <div class="portfolio-info">
-                <h4>Slabs Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Slabs/g6.jpg" class="img-fluid" alt="تصميم الألواح">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الألواح</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -1014,10 +1015,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-slabs">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Slabs/g8.jpg" class="img-fluid" alt="Slabs Design">
-              <div class="portfolio-info">
-                <h4>Slabs Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Slabs/g8.jpg" class="img-fluid" alt="تصميم الألواح">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الألواح</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -1030,10 +1031,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-slabs">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Slabs/g9.jpg" class="img-fluid" alt="Slabs Design">
-              <div class="portfolio-info">
-                <h4>Slabs Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Slabs/g9.jpg" class="img-fluid" alt="تصميم الألواح">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الألواح</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -1046,10 +1047,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-slabs">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Slabs/g10.jpg" class="img-fluid" alt="Slabs Design">
-              <div class="portfolio-info">
-                <h4>Slabs Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Slabs/g10.jpg" class="img-fluid" alt="تصميم الألواح">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الألواح</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -1062,10 +1063,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-slabs">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Slabs/g16.jpg" class="img-fluid" alt="Slabs Design">
-              <div class="portfolio-info">
-                <h4>Slabs Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Slabs/g16.jpg" class="img-fluid" alt="تصميم الألواح">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الألواح</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -1078,10 +1079,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-slabs">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Slabs/g21.jpg" class="img-fluid" alt="Slabs Design">
-              <div class="portfolio-info">
-                <h4>Slabs Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Slabs/g21.jpg" class="img-fluid" alt="تصميم الألواح">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الألواح</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -1094,10 +1095,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-slabs">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Slabs/g22.jpg" class="img-fluid" alt="Slabs Design">
-              <div class="portfolio-info">
-                <h4>Slabs Design</h4>
-                <p>Art Family Residence</p>
+              <img src="../assets/img/portfolio/Slabs/g22.jpg" class="img-fluid" alt="تصميم الألواح">
+              <div class="portfolio-info" style="direction: rtl;">
+                <h4>تصميم الألواح</h4>
+                <p>سكن الأسرة الفنية</p>
                 <!-- <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
@@ -1116,19 +1117,20 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <footer id="footer" class="footer-ar">
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <!-- Footer Info -->
+          <div class="col-lg-3 col-md-6" style="direction: rtl;">
             <div class="footer-info">
               <h3>AQS</h3>
               <p>
-                Industrial Area 15<br>
-                Sharjah, UAE<br><br>
-                <strong>Phone:</strong> +971 52 189 6965<br>
-                <strong>Email:</strong> info@aqsmarble.com<br>
+                المنطقة الصناعية 15<br>
+                الشارقة، الإمارات العربية المتحدة<br><br>
+                <strong>الهاتف:</strong> 971521896965+<br>
+                <strong>البريد الإلكتروني:</strong> info@aqsmarble.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="https://wa.me/+971566038188" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
@@ -1142,38 +1144,38 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+          <!-- Useful Links -->
+          <div class="col-lg-3 col-md-6 footer-links" style="direction: rtl;">
+            <h4>روابط مفيدة</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="Home">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="About">About Company</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Service">Our Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Gallery">Gallery</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Contact">Contact Us</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="Home">الرئيسية</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="About">عن الشركة</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="Service">خدماتنا</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="Gallery">معرض</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="Contact">اتصل بنا</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+          <!-- Our Services -->
+          <div class="col-lg-3 col-md-6 footer-links" style="direction: rtl;">
+            <h4>خدماتنا</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="Service">Custom Marble Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Service">Natural Stone Sourcing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Service">Residential Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Service">Granite Installation</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Service">Consultation and Design</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="Service">تصميم الرخام الخاص</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="Service">توفير الحجر الطبيعي</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="Service">خدمات الإقامة</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="Service">تركيب الجرانيت</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="Service">استشارات وتصميم</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Recent News</h4>
+          <!-- Recent News -->
+          <div class="col-lg-3 col-md-6 footer-links" style="direction: rtl;">
+            <h4>أخبار حديثة</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Normal Cost Stone Designing Ideas</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marble Design and Installing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Italian Marble Fixing and Installing</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
+              <li><i class="bx bx-chevron-left"></i> <a href="#">أفكار تصميم الحجر بتكلفة عادية</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="#">تصميم وتركيب الرخام</a></li>
+              <li><i class="bx bx-chevron-left"></i> <a href="#">تركيب وصيانة الرخام الإيطالي</a></li>
             </ul>
-
           </div>
 
         </div>
@@ -1182,29 +1184,31 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>AQS</span></strong>. All Rights Reserved
+        © حقوق النشر <strong><span>AQS</span></strong>. جميع الحقوق محفوظة
       </div>
       <div class="credits">
-        Designed by <a href="https://abdulrahmanolabi.github.io/iPortfolio/">AbdULRahman Al-Olabi</a>
+        <a href="https://abdulrahmanolabi.github.io/iPortfolio/">AbdULRahman Al-Olabi</a> صمم بواسطة
       </div>
     </div>
+
   </footer><!-- End Footer -->
+
 
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
 
 </body>
 

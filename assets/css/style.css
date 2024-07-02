@@ -736,8 +736,8 @@ section {
 
 /* Adjust the header text margin for RTL */
 .services[style*="direction: rtl"] .icon-box h4 {
-  margin-right: 70px; /* Use margin-right instead of margin-left for RTL */
-  margin-left: 0; /* Reset left margin to 0 */
+  margin-right: 70px;
+  margin-left: 0;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -751,8 +751,8 @@ section {
 
 /* Paragraph text adjustment for RTL */
 .services[style*="direction: rtl"] .icon-box p {
-  margin-right: 70px; /* Text starts 70px from the right in RTL */
-  margin-left: 0; /* Reset left margin to 0 */
+  margin-right: 70px;
+  margin-left: 0;
   line-height: 24px;
   font-size: 14px;
 }
@@ -806,6 +806,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(51, 48, 49, 0.6);
+  border-radius: 5px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -819,12 +820,14 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+  border-radius: 5px;
 }
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
   width: 500px !important;
   height: 350px !important;
+  border-radius: 5px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -885,6 +888,28 @@ section {
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
+}
+
+.portfolio.rtl {
+  direction: rtl;
+}
+
+.portfolio.rtl #portfolio-flters {
+  text-align: center;
+}
+
+.portfolio.rtl .portfolio-info {
+  text-align: right;
+}
+
+.portfolio.rtl .portfolio-wrap {
+  direction: ltr; /* Keeps images in default LTR flow to avoid flipping images */
+}
+
+/* Adjust text alignment and navigation for RTL */
+.portfolio.rtl .portfolio-item .portfolio-info h4,
+.portfolio.rtl .portfolio-item .portfolio-info p {
+  text-align: right;
 }
 
 /*--------------------------------------------------------------
@@ -1349,6 +1374,31 @@ section {
   font-style: italic;
   margin: 15px 0 0 0;
   padding: 0;
+}
+
+/* RTL adjustments for Arabic testimonials */
+.testimonials .lang-ar {
+  direction: rtl;
+  text-align: right;
+}
+
+.testimonials .lang-ar .testimonial-img {
+  float: right;
+  margin: 0 0 0 10px;
+}
+
+.testimonials .lang-ar .quote-icon-left,
+.testimonials .lang-ar .quote-icon-right {
+  display: inline-block;
+  position: relative;
+}
+
+.testimonials .lang-ar .quote-icon-left {
+  margin-left: 10px;
+}
+
+.testimonials .lang-ar .quote-icon-right {
+  margin-right: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -2000,6 +2050,41 @@ section {
   padding-left: 5px;
   color: #fbfbfc;
   font-size: 14px;
+}
+
+/* RTL Adjustments */
+.blog.rtl {
+  direction: rtl;
+}
+
+.blog.rtl .entry-title,
+.blog.rtl .entry-meta,
+.blog.rtl .entry-content {
+  text-align: right;
+}
+
+.blog.rtl .entry-meta ul li + li {
+  padding-right: 20px; /* Space between meta items */
+  padding-left: 0; /* Remove left padding if previously set */
+}
+
+.blog.rtl .entry-meta i {
+  margin-left: 8px; /* Icon adjustment */
+  margin-right: 0; /* Reset right margin if set */
+}
+
+.blog.rtl .read-more {
+  text-align: left; /* Align 'Read More' button to the left in RTL */
+}
+
+/* Correct floating for images or any floated elements within entries */
+.blog.rtl .entry-img {
+  margin-right: -30px; /* Ensure the image margins are flipped */
+}
+
+/* Example of adjusting form or button alignment */
+.blog.rtl .entry-content .read-more {
+  text-align-last: left; /* For button alignment */
 }
 
 /*--------------------------------------------------------------
